@@ -1,4 +1,4 @@
-Pack name:  
-Pack URL:   
+Pack name:  Copper Cutting
+Pack URL:   https://modrinth.com/datapack/copper-cutting
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
