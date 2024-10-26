@@ -5,16 +5,16 @@
       "min_inclusive": 48,
       "max_inclusive": 99
     },
-    "description": "Use a stonecutter for more copper doors and trapdoors. by not_blue."
+    "description": "Use a stonecutter for more copper doors and trapdoors"
   },
   "overlays": {
     "entries": [
       {
       "formats": {
-        "min_inclusive": 49,
+        "min_inclusive": 57,
         "max_inclusive": 99
       },
-      "directory": "overlay_1.21.2"
+      "directory": "overlay_57"
     }
     ]
   }
