@@ -3,7 +3,7 @@
     "pack_format": 48,
     "supported_formats": {
       "min_inclusive": 48,
-      "max_inclusive": 99
+      "max_inclusive": 999
     },
     "description": "Use a stonecutter for more copper doors and trapdoors"
   },
@@ -12,7 +12,7 @@
       {
       "formats": {
         "min_inclusive": 57,
-        "max_inclusive": 99
+        "max_inclusive": 999
       },
       "directory": "overlay_57"
     }
