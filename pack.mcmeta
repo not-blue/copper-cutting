@@ -2,6 +2,6 @@
   "pack": {
     "min_format": [88,0],
     "max_format": [88,0],
-    "description": "Use a stonecutter for more copper doors and trapdoors"
+    "description": "Use a stonecutter for more copper doors, trapdoors, bars and lightning rods"
   }
 }

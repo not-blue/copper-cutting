@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_waxed_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_copper_block"
+          }
+        ]
+      }
+    },
+    "has_door_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:waxed_copper_door_stonecutting"
+      }
+    },
+    "has_trapdoor_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:waxed_copper_trapdoor_stonecutting"
+      }
+    },
+    "has_lightning_rod_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:waxed_lightning_rod_stonecutting"
+      }
+    },
+    "has_bars_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:waxed_copper_bars_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bars_recipe",
+      "has_lightning_rod_recipe",
+      "has_trapdoor_recipe",
+      "has_waxed_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "copper_cutting:waxed_copper_door_stonecutting",
+      "copper_cutting:waxed_copper_trapdoor_stonecutting",
+      "copper_cutting:waxed_lightning_rod_stonecutting",
+      "copper_cutting:waxed_copper_bars_stonecutting"
+    ]
+  }
+}

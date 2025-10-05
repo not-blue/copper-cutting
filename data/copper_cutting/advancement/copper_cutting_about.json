@@ -4,7 +4,7 @@
       "id": "minecraft:oxidized_copper_door"
     },
     "title": "Copper Cutting",
-    "description": "Use a stonecutter to created exposed, weathered and oxidized copper doors, both waxed and unwaxed.",
+    "description": "Use a stonecutter to created exposed, weathered and oxidized copper doors, trapdoors, bars and lightning rods, both waxed and unwaxed.",
     "show_toast": false,
     "announce_to_chat": false
   },

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:waxed_oxidized_copper",
   "result": {
-    "id": "minecraft:waxed_oxidized_copper_trapdoor",
-    "count": 3
+    "id": "minecraft:waxed_oxidized_copper_bars",
+    "count": 26
   }
 }
