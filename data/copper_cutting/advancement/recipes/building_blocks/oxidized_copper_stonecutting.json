@@ -11,22 +11,30 @@
         ]
       }
     },
-    "has_the_recipe": {
+    "has_door_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "copper_cutting:oxidized_copper_door_stonecutting"
+      }
+    },
+    "has_trapdoor_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:oxidized_copper_trapdoor_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
+      "has_door_recipe",
+      "has_trapdoor_recipe",
       "has_copper_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "copper_cutting:oxidized_copper_door_stonecutting"
+      "copper_cutting:oxidized_copper_door_stonecutting",
+      "copper_cutting:oxidized_copper_trapdoor_stonecutting"
     ]
   }
 }

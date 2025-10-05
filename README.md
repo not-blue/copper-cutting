@@ -1,6 +1,6 @@
 # Copper Cutting
 
-Use the stonecutter to transform exposed, weathered and oxidized copper blocks (and their waxed versions) into their respective doors and trapdoors. Get five doors per copper block and four trapdoors.
+Use the stonecutter to transform exposed, weathered and oxidized copper blocks (and their waxed versions), as well as lightning rods, into their respective doors and trapdoors. Get five doors, three trapdoors and four lightning rods per copper block.
 
 
 ## License

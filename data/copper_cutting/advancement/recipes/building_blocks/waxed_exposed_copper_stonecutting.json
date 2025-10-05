@@ -1,7 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
+    "has_door_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "copper_cutting:waxed_exposed_copper_door_stonecutting"
+      }
+    },
+    "has_trapdoor_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "copper_cutting:waxed_exposed_copper_trapdoor_stonecutting"
@@ -20,12 +26,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
+      "has_door_recipe",
+      "has_trapdoor_recipe",
       "has_waxed_copper"
     ]
   ],
   "rewards": {
     "recipes": [
+      "copper_cutting:waxed_exposed_copper_door_stonecutting",
       "copper_cutting:waxed_exposed_copper_trapdoor_stonecutting"
     ]
   }
