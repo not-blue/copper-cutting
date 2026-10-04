@@ -1,7 +1,16 @@
 {
   "pack": {
     "min_format": [88,0],
-    "max_format": [95,0],
+    "max_format": [999,0],
     "description": "Use a stonecutter for more copper doors, trapdoors, bars and lightning rods"
-  }
+  },
+	"overlays": {
+		"entries": [
+			{
+				"min_format": [121, 0],
+				"max_format": [999, 0],
+				"directory": "overlay_121"
+				}
+		]
+	}
 }
