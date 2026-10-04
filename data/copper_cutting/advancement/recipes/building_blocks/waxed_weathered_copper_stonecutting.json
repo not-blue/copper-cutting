@@ -38,7 +38,7 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
+      "has_door_recipe",
       "has_bars_recipe",
       "has_lightning_rod_recipe",
       "has_trapdoor_recipe",
